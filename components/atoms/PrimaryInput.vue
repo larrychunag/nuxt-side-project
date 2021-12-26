@@ -21,18 +21,23 @@ export default {
   props: {
     label: {
       type: String,
+      default: '',
     },
     description: {
       type: String,
+      default: '',
     },
     type: {
       type: String,
+      default: 'text',
     },
     inputValue: {
       type: String,
+      default: '',
     },
     placeholder: {
       type: String,
+      default: 'Please enter',
     },
     required: {
       type: Boolean,

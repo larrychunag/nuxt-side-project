@@ -27,9 +27,13 @@ export default {
       type: String,
       default: 'sample',
     },
-    title: String,
+    title: {
+      type: String,
+      default: '',
+    },
     description: {
       type: String,
+      default: '',
     },
   },
   methods: {},
