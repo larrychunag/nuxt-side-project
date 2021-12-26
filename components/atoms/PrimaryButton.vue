@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-button @click="handleClick()">{{ title }}</b-button>
+    <b-button :variant="variant" @click="handleClick()">{{ title }}</b-button>
   </div>
 </template>
 
@@ -10,6 +10,7 @@ export default {
   props: {
     handleClick: Function,
     title: String,
+    variant: String,
   },
   methods: {},
 }
