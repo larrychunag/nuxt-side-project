@@ -5,7 +5,6 @@
         v-model="innerInputValue"
         :type="type"
         :placeholder="placeholder"
-        :required="required ? true : false"
       ></b-form-input>
     </b-form-group>
   </div>
@@ -38,9 +37,6 @@ export default {
     placeholder: {
       type: String,
       default: 'Please enter',
-    },
-    required: {
-      type: Boolean,
     },
   },
   computed: {
