@@ -1,12 +1,6 @@
 <template>
   <div>
-    <AtomsPrimaryInput
-      v-model="value"
-      title="sample"
-      label="please enter"
-      description="sample card"
-      required="true"
-    />
+    <MoleculesTheForm />
   </div>
 </template>
 <script lang="ts">
